@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	float: left;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 1024px;
+	margin: 0 auto;
+	height: 60px;
+	/*border: 1px solid red;*/
+	position: relative;
+	
+}
+header>ul>li{
+	float: left;
+	list-style: none;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 50px;	
+}
+header>ul>li>a{
+	color:black;
+	text-decoration: none;
+}
+header>ul>li>a:hover{
+	color:#DA574F ;
+}
+header>ul>li>.active{
+	color:#DA574F ;
+}
+header>a>span{
+	display: inline-block;
+	position: absolute;
+	right: 75px;
+	color:#DA574F ;
+}
+
+header>a>.sou{
+	top: 17px;
+	width: 25px;
+	height: 25px;
+	background: url(../img/search.png) no-repeat;
+	background-size: cover;
+	right: 155px;
+}
+header>a>.W{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #DA574F;
+	text-align: center;
+	line-height: 30px;
+	top: 12px;
+}
+.chaochu{
+	width: 100%;
+	height: 1px;
+	background: #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	box-shadow: 0px 0px 5px #E8E8E8;
+}
+section{
+	position: relative;
+	margin: 0 auto;
+	background: #F7F7F7;
+	width: 100%;
+	font-size: 15px;
+}
+.sc1{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 15px 0px 15px 0px;
+}
+.sc1>a{
+	text-decoration: none;
+	color: #B6A9B6;
+}
+.sc2{
+	width: 1024px;
+	margin: 0 auto;
+}
+.sc2>.scc1{
+	width: 65%;
+	background: white;
+}
+.sc2>.scc1>.sccc1{
+	width: 100%;
+}
+.sc2>.scc1>.sccc1>.b{
+	font-size: 23px;
+	padding: 30px 0px 20px 20px;
+}
+.sc2>.scc1>.sccc1>.w{
+	padding: 0px 0px 20px 20px;
+	color: #B3B7BB;
+}
+.sc2>.scc2{
+	width: 65%;
+	background: white;
+}
+.sc2>.scc2>.yy{
+	padding: 15px;
+	font-size: 14px;
+	color: #4A434B;
+}
+.sc2>.scc2>.m{
+	color: #BFC1C9;
+}
+.sc2>.scc2>.img{
+	width: 95%;
+	margin-left: 2.5%;
+}
+.xian{
+	border-bottom: 1px dashed #BEB9BB;
+	width: 100%;
+	height: 1px;
+	/*padding: 10px 0px 10px 0px;*/
+	float: left;
+	padding-bottom: 0px;
+}
+/*底部*/
+footer{
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background: #505050;
+	position: relative;
+}
+footer>.box{
+	width: 1124px;
+	margin: 0 auto;
+}
+footer>.box>.ewm{
+	display: inherit;
+	float: left;
+	
+}
+footer>.box>.y{
+	display: inherit;
+	float: left;
+	margin-left: 15px;
+	overflow: hidden;
+}
+footer>.box>.y>p{
+	font-size: 14px;
+	margin-top: 19px;
+	margin-bottom:30px ;
+	color: #87837B;
+}
+footer>.box>.y>.g{
+	margin-top: 7px;
+	margin-bottom:0px ;
+}
+footer>.box>.y>a{
+	color: #87837B;
+	text-decoration: none;
+	font-size: 14px;
+}
+footer>.box>.y>.q{
+	display: inline-block;
+	width: 90px;
+}
+footer>.zuidi{
+	margin-top: 240px;
+	color: #87837B;
+	text-align: center;
+	
+}
+/* 小火箭悬停特效 */
+			#gotop1 {
+				width: 80px;
+				position: fixed;
+				bottom: 50px;
+				cursor: pointer;
+				z-index: 99998;
+				right: 50%;
+				margin-right: -677px;
+			}
+			#gotop1:hover {
+				animation: rubberBand 1s;
+			}
+			
+			@keyframes rubberBand {
+				from {
+					transform: scale3d(1, 1, 1);
+				}
+				30% {
+					transform: scale3d(1.25, 0.75, 1);
+				}
+				40% {
+					transform: scale3d(0.75, 1.25, 1);
+				}
+				50% {
+					transform: scale3d(1.15, 0.85, 1);
+				}
+				65% {
+					transform: scale3d(.95, 1.05, 1);
+				}
+				75% {
+					transform: scale3d(1.05, .95, 1);
+				}
+				to {
+					transform: scale3d(1, 1, 1);
+				}
+			}

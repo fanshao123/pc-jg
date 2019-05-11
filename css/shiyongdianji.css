@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	float: left;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 1024px;
+	margin: 0 auto;
+	height: 60px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+header>ul>li{
+	float: left;
+	list-style: none;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 50px;	
+}
+header>ul>li>a{
+	color:black;
+	text-decoration: none;
+}
+header>ul>li>a:hover{
+	color:#DA574F ;
+}
+header>ul>li>.active{
+	color:#DA574F ;
+}
+header>a>span{
+	display: inline-block;
+	position: absolute;
+	right: 75px;
+	color:#DA574F ;
+}
+
+header>a>.sou{
+	top: 17px;
+	width: 25px;
+	height: 25px;
+	background: url(../img/search.png) no-repeat;
+	background-size: cover;
+	right: 155px;
+}
+header>a>.W{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #DA574F;
+	text-align: center;
+	line-height: 30px;
+	top: 12px;
+}
+section{
+	position: relative;
+	margin: 0 auto;
+}
+.sc1{
+	width: 100%;
+	height: 300px;
+	/*background: url(../img/original.jpg) no-repeat;
+	background-size: cover;*/
+	position: relative;
+	margin: 0 auto;
+}
+.sc1>.wz{
+	width: 300px;
+	height: 260px;
+	position: absolute;
+	top: -100px;
+	left: 76%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.sc1>.wz>.x>span{
+	display: inline-block;
+	margin-top:-5px;
+	padding: 0px 4px 0px 4px;
+	font-size: 10px;
+	text-align: center;
+/*	width: 80px;*/
+	height: 30px;
+/*	border: 1px solid red;*/
+	line-height: 30px;
+	color: white;
+	background: #EDD198;
+	margin-left: 10px;
+}
+.sc1>.wz>.x>.y{
+	margin-left: 90px;
+}
+.sc2{
+	width: 100%;
+	height: 80px;
+	background: #F0F0F0;
+}
+.sc2-sc1{
+	width: 1024px;
+	height: 80px;
+	position: relative;
+	margin: 0 auto;
+}
+.sc2-sc1>div{
+	float: left;
+}
+.sc2-sc1-zuo{
+	width: 10%;
+	height: 80px;
+	/*background: #4A434B;*/
+	position: relative
+}
+.sc2-sc1-zuo>span{
+	display: inline-block;
+}
+.sc2-sc1-zuo>.y{
+	width: 3px;
+	height: 60px;
+	margin-top: 10px;
+	background: #FE5341;
+}
+.sc2-sc1-zuo>.e{
+	width: 40%;
+	height: 60px;
+	position: absolute;
+	top: 20px;
+	left: 13%;
+	overflow: hidden;
+}
+.sc2-sc1-you{
+	width: 90%;
+	height: 80px;
+	/*background: red;*/
+}
+.sc2-sc1-you>div{
+	float: left;
+	width: 20%;
+	height: 80px;
+}
+.sc2-sc1-you>div>div{
+	width: 65px;
+	height: 60px;
+	margin-top:10px;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.sc2-sc1-you>div>div>span>img{
+	width: 30px;
+	height: 30px;
+}
+.sc2-sc1-you>div>div>p{
+	color: #95979E;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+
+.sc2-sc1-you>div>div>div{
+	width: 0%;
+	height: 1px;
+	background: red;
+	position: relative;
+	margin-top: 2px;
+}
+.sc2-sc1-you>div>div:hover>div{
+	animation: name3 3s forwards;
+}
+@keyframes name3{
+	0%{width: 0%;}
+	100%{width: 100%;}
+}
+.sc3{
+	width: 1024px;
+	margin: 0 auto;
+}
+.scc1{
+	/*background: red;*/
+	width: 65%;
+	margin-top: 20px;
+}
+.scc1>.b{
+	padding: 30px 0px 30px 0px;
+	font-size: 14px;
+	color: #434A46;
+}
+.scc1>.y{
+	height: 57px;
+	overflow: hidden;
+}
+.scc1>.img>img{
+	width: 100%;
+	height: 400px;
+}
+.scc1>.a{
+	color: #0C78B8;
+	padding: 10px 0px 10px 0px;
+}
+.scc1>.h{
+	color: #FD1602;
+	margin-top: 30px;
+}
+.scc2{
+	width: 35%;
+}
+/*底部*/
+footer{
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background: #505050;
+	position: relative;
+}
+footer>.box{
+	width: 1124px;
+	margin: 0 auto;
+}
+footer>.box>.ewm{
+	display: inherit;
+	float: left;
+	
+}
+footer>.box>.y{
+	display: inherit;
+	float: left;
+	margin-left: 15px;
+	overflow: hidden;
+}
+footer>.box>.y>p{
+	font-size: 14px;
+	margin-top: 19px;
+	margin-bottom:30px ;
+	color: #87837B;
+}
+footer>.box>.y>.g{
+	margin-top: 7px;
+	margin-bottom:0px ;
+}
+footer>.box>.y>a{
+	color: #87837B;
+	text-decoration: none;
+	font-size: 14px;
+}
+footer>.box>.y>.q{
+	display: inline-block;
+	width: 90px;
+}
+footer>.zuidi{
+	margin-top: 240px;
+	color: #87837B;
+	text-align: center;
+	
+}
+/* 小火箭悬停特效 */
+			#gotop1 {
+				width: 80px;
+				position: fixed;
+				bottom: 50px;
+				cursor: pointer;
+				z-index: 99998;
+				right: 50%;
+				margin-right: -677px;
+			}
+			#gotop1:hover {
+				animation: rubberBand 1s;
+			}
+			
+			@keyframes rubberBand {
+				from {
+					transform: scale3d(1, 1, 1);
+				}
+				30% {
+					transform: scale3d(1.25, 0.75, 1);
+				}
+				40% {
+					transform: scale3d(0.75, 1.25, 1);
+				}
+				50% {
+					transform: scale3d(1.15, 0.85, 1);
+				}
+				65% {
+					transform: scale3d(.95, 1.05, 1);
+				}
+				75% {
+					transform: scale3d(1.05, .95, 1);
+				}
+				to {
+					transform: scale3d(1, 1, 1);
+				}
+			}
